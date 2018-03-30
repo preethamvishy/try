@@ -1,12 +1,16 @@
-### try - retry - repeat  🚀
+# try 🚀
 
 `try` is a command line utility to try executing a shell command and retry if it fails or repeat even if it succeeds.
 
-### Usage
+![try](https://i.imgur.com/lt38vOH.png)
+
+You run a long running command and leave to grab a ☕️, hoping to come back to a completed execution but you come back to find that the process failed due to a connectivity issue which is now fixed 🎩. You are now left to re-run the process and spend several caffeine-powered minutes staring at your terminal. Never again!
+
+## Usage
 
 Use the `try` keyword.
 
-#### Flags
+### Flags
 
 ```bash
 -a, --attempts <number>  => Maximum number of retry attempts.
@@ -19,7 +23,7 @@ Use the `try` keyword.
 
 ```
 
-#### Examples
+### Examples
 
 `try -c ls -t 5 -a 5 -f`
 
@@ -33,7 +37,5 @@ Note that multi-word commands or commands with flags must be enclosed in single 
 
 
 
-
-
-Made with ❤️.
+##### Made with ❤️.
 

@@ -1,7 +1,7 @@
 {
   "name": "try-cli",
-  "version": "1.0.2",
-  "description": "Never give up on that shell command/script",
+  "version": "1.0.3",
+  "description": "A command line utility to try executing a shell command and retry if it fails or repeat even if it succeeds.",
   "main": "try.js",
   "preferGlobal": true,
   "bin" : { 
