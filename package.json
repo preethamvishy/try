@@ -2,9 +2,9 @@
   "name": "try",
   "version": "1.0.0",
   "description": "Never give up on that shell command/script",
-  "main": "index.js",
+  "main": "try.js",
   "bin" : { 
-    "try" : "index.js" 
+    "try" : "try.js" 
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
