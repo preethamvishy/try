@@ -1,0 +1,34 @@
+{
+  "name": "try",
+  "version": "1.0.0",
+  "description": "Never give up on that shell command/script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preethamvishy/try.git"
+  },
+  "keywords": [
+    "cli",
+    "command line",
+    "command line utility",
+    "command line tool",
+    "tool",
+    "utility",
+    "retry",
+    "repeat"
+  ],
+  "author": "Preetham Viswanathan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/preethamvishy/try/issues"
+  },
+  "homepage": "https://github.com/preethamvishy/try#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "sleep": "^5.1.1",
+    "sync-exec": "^0.6.2"
+  }
+}
