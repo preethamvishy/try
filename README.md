@@ -1,7 +1,12 @@
-# try
-Command line utility to try a shell command and retry if it fails or repeat forever.
+### 					TRY - RETRY - REPEAT 🔁
 
-`npm install -g try-cli`
+You run a long running command and leave to grab a ☕️, hoping to come back to a completed execution but you come back to find that the process failed due to a connectivity issue which is now fixed 🎩. You are now left to re-run the process and spend several caffeine-powered minutes staring at your terminal. Never again (most of the time)!
+
+
+
+`try` is a command line utility to try executing a shell command and retry if it fails or repeat even if it succeeds.
+
+`npm install -g try-cli
 
 
 
