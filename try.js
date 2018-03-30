@@ -12,7 +12,7 @@ commander
     .version(version)
     .option('-a, --attempts <number>', 'Maximum number of retry attempts. DEFAULT = 4')
     .option('-t, --timeout  <seconds>', 'Seconds between retries. DEFAULT = 4')
-    .option('-c, --command  <cmd>', 'Shell command to try')
+    .option('-c, --command  <cmd>', 'Command to try')
     .option('-f, --force-repeat', 'Force repeated execution even if it succeeds')
     .parse(process.argv)
 
