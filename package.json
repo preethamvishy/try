@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Never give up on that shell command/script",
   "main": "index.js",
+  "bin" : { 
+    "try" : "index.js" 
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
