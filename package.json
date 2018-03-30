@@ -1,6 +1,6 @@
 {
   "name": "try-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Never give up on that shell command/script",
   "main": "try.js",
   "preferGlobal": true,
