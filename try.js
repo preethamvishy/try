@@ -1,7 +1,8 @@
+#!/usr/bin/env node
 var commander = require('commander')
 var exec = require('sync-exec');
 var sleep = require('sleep');
-var version = require('./package.json').version;
+var pack = require('./package.json');
 
 var attempts,
     timeout,
@@ -9,7 +10,8 @@ var attempts,
     attemptCount = 0
 
 commander
-    .version(version)
+    .version(pack.version)
+    .description(pack.description)
     .option('-a, --attempts <number>', 'Maximum number of retry attempts. DEFAULT = 4')
     .option('-t, --timeout  <seconds>', 'Seconds between retries. DEFAULT = 4')
     .option('-c, --command  <cmd>', 'Command to try')
