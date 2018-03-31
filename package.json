@@ -1,6 +1,6 @@
 {
   "name": "try-cli",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "A command line utility to try executing a shell command and retry if it fails or repeat even if it succeeds.",
   "main": "try.js",
   "preferGlobal": true,

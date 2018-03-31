@@ -27,7 +27,7 @@ Use the `try` keyword.
 
 `try -c ls -t 5 -a 5 -f`
 
-`try --command ls --timeout 5 -attempts 5 --force-repeat`
+`try --command ls --timeout 5 --attempts 5 --force-repeat`
 
 `try -c 'ls -la' --timeout 5`
 
